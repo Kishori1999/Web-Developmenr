@@ -6,35 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="./asset/css/contact-us.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/b3aafdc728.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
         <style>
-            .logoStyle {
-                border-radius: 50%;
+            .logo {
                 width: 50px;
-                height: 50px;
-            }
-
-            .nav-bar {
-                padding: 0 16px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                background-color: #333;
-            }
-
-            nav a {
-                display: block;
-                color: aqua;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: medium;
-            }
-
-            nav a:hover {
-                background-color: #111;
+                height: 7vh;
+                flex-basis: 2%;
             }
 
             .end {
@@ -46,10 +28,19 @@
     </head>
 
     <body>
-        <nav class="nav-bar">
-            <img src="./asset/image/logo.jpg" class="mr-5 logoStyle">
-            <a href="./index.html">home</a>
-        </nav>
+        <img src="./asset/image/logo.jpg" alt="Logo">
+        <a href="./login.html"><i class="fas fa-user" id="man"></i></a>
+        <div class="topnav" id="myTopnav">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./services.html" onclick="dis()">Events</a>
+            <a href="./gallery.html" onclick="dis4()">Gallery</a>
+            <a href="./blogs.html" onclick="dis1()">Blogs</a>
+            <a href="./about.html" onclick="dis3()">About</a>
+            <a href="./contact-us.html" onclick="dis2()">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
 
         <div class="jumbotron text-center">
             <h1 style="font-size: 5rem;">OUR BLOGS</h1>
@@ -131,22 +122,9 @@
             </div>
         </div>
         <!--Item categories listing end-->
-
-
-        <section id="footer">
-            <h1>&copy; copyright 2021 by <span>WEB STUDENT</span></h1>
-        </section>
-
-
-
-        <!-- script part start  -->
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                delay: 500
-            });
-        </script>
+        <div class="end">
+            <p>Copyright@One Stop Event Planner 2021.</p>
+        </div>
 
     </body>
 
