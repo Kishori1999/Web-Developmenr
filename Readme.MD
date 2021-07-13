@@ -23,4 +23,4 @@ Preview Pgae: [Link](https://Kishori1999.github.io/Web-Developmenr/)
    - blogs : contains blog paage & images
    - pages : diff. webpages
 
-### Created By Lokesh, Kishori, Tanya, Mahapavitra, Pankaj @ 2021 - Web Student
+### Created By Lokesh, Kishori, Tarushi, Mahapavitra, Pankaj @ 2021 - Web Student
