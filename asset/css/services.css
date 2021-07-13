@@ -131,12 +131,12 @@ div[class]:nth-child(odd) {
 }
 
 #project1 {
-  background-image: url(https://i0.wp.com/www.weddingphotographyselect.co.uk/the-select-bride/wp-content/uploads/2020/11/How-To-Save-Money-While-Planning-A-Wedding-1-1.jpg?resize=600%2C400&ssl=1);
+  background-image: url(https://www.weddingforward.com/wp-content/uploads/2021/01/christian-wedding-ceremony-scripts-and-vows-groom-bride-flower-arch-pasion_eventos.jpg);
   width: 300px;
 }
 
 #project2 {
-  background-image: url(https://i0.wp.com/www.weddingphotographyselect.co.uk/the-select-bride/wp-content/uploads/2020/11/How-To-Save-Money-While-Planning-A-Wedding-1-1.jpg?resize=600%2C400&ssl=1);
+  background-image: url(https://media.glamour.com/photos/570436061671810c378b7f3e/master/pass/weddings-2016-03-marriage-christian-wedding-jewish-wedding-0330-stocksy-main.jpg);
   width: 300px;
 }
 
@@ -144,6 +144,31 @@ div[class]:nth-child(odd) {
   background-image: url(https://i0.wp.com/www.weddingphotographyselect.co.uk/the-select-bride/wp-content/uploads/2020/11/How-To-Save-Money-While-Planning-A-Wedding-1-1.jpg?resize=600%2C400&ssl=1);
   width: 300px;
 }
+#project5 {
+  background-image: url(https://images.unsplash.com/photo-1561489396-888724a1543d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29uZmVyZW5jZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=801);
+  width: 300px;
+}
+#project6 {
+  background-image: url(https://www.pingpongmoments.in/blog/wp-content/uploads/2020/04/corporate-party.png);
+  width: 300px;
+}
+#project7 {
+  background-image: url(https://www.fond.co/wp-content/uploads/2020/03/make-employee-appreciation-day-festivities-your-own-400x267.jpg);
+  width: 300px;
+}
+#project8 {
+  background-image: url(https://i.pinimg.com/originals/f0/82/b1/f082b1be2597a98dfd9b8ade408427aa.jpg);
+  width: 300px;
+}
+#project9 {
+  background-image: url(https://i.pinimg.com/originals/37/1a/f9/371af9fdfa53fe1c65d64da635485d73.jpg);
+  width: 300px;
+}
+#project10 {
+  background-image: url(https://i1.wp.com/www.nocedsm.com/wp-content/uploads/2020/03/image16-e1584380577247.jpeg?resize=1000%2C500&ssl=1);
+  width: 300px;
+}
+
 
 #projectCards {
   margin-bottom: 100px !important;
