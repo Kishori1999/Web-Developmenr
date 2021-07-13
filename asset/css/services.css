@@ -1,0 +1,153 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("https://hannahetheringtonflowers.com.au/wp-content/uploads/2020/06/stables-wedding.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* ---- stats.js ---- */
+.count-particles {
+  position: absolute;
+  top: 4%;
+  width: 100%;
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: "Trattatello", "fantasy";
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+.allsides-7 {
+  background: linear-gradient(currentColor 0 0) 0 100%,
+    linear-gradient(currentColor 0 0) 0 100%,
+    linear-gradient(currentColor 0 0) 100% 100%,
+    linear-gradient(currentColor 0 0) 100% 100%;
+  background-size: var(--p, 70%) 3px, 3px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.allsides-7:hover {
+  --d: 100%;
+  --p: 0%;
+}
+div[class] {
+  display: inline-block;
+  font: size 80%;
+  font-family: sans-serif;
+
+  padding: 25px;
+  cursor: pointer;
+}
+div[class]:nth-child(odd) {
+  color: black;
+}
+.projectsection p {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-custom {
+  overflow: hidden;
+  min-height: 450px;
+  border-radius: 40px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+  height: 300px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: inherit;
+  border-radius: 10px;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-width: 40px;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 545px;
+
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+  border-radius: 10%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  position: absolute;
+  top: 100px;
+  left: 1.25rem;
+  width: 110px;
+  height: 110px;
+}
+
+.card-custom-avatar img:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.img-fluid {
+  background-color: white;
+}
+
+#project1 {
+  background-image: url(https://i0.wp.com/www.weddingphotographyselect.co.uk/the-select-bride/wp-content/uploads/2020/11/How-To-Save-Money-While-Planning-A-Wedding-1-1.jpg?resize=600%2C400&ssl=1);
+  width: 300px;
+}
+
+#project2 {
+  background-image: url(https://i0.wp.com/www.weddingphotographyselect.co.uk/the-select-bride/wp-content/uploads/2020/11/How-To-Save-Money-While-Planning-A-Wedding-1-1.jpg?resize=600%2C400&ssl=1);
+  width: 300px;
+}
+
+#project4 {
+  background-image: url(https://i0.wp.com/www.weddingphotographyselect.co.uk/the-select-bride/wp-content/uploads/2020/11/How-To-Save-Money-While-Planning-A-Wedding-1-1.jpg?resize=600%2C400&ssl=1);
+  width: 300px;
+}
+
+#projectCards {
+  margin-bottom: 100px !important;
+}
+.card-text {
+  font-size: 40%;
+}

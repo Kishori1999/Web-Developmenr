@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/53bf2bdbc3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./asset/css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+  </head>
+  <style>
+    .card {
+      border: 1px solid goldenrod;
+      margin: 7% 25%;
+    }
+
+    .logo {
+      width: 50px;
+      height: 7vh;
+      flex-basis: 2%;
+    }
+
+    .card .form-control {
+      border: none;
+      outline: none;
+      border-bottom: 1px solid goldenrod;
+    }
+
+    @media screen and (max-width: 768px) {
+      .card {
+        margin: 15% 10%;
+      }
+    }
+  </style>
+
+  <body>
+    <img src="./asset/image/logo.jpg" alt="Logo">
+    <a href="./login.html"><i class="fas fa-user" id="man"></i></a>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html" class="active">Home</a>
+      <a href="./services.html" onclick="dis()">Events</a>
+      <a href="./gallery.html" onclick="dis4()">Gallery</a>
+      <a href="./blogs.html" onclick="dis1()">Blogs</a>
+      <a href="./about.html" onclick="dis3()">About</a>
+      <a href="./contact-us.html" onclick="dis2()">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="head">
+      <h2 style="text-align: center;">Welcome to Login Page <i class="fas fa-feather"></i>...!</h2>
+    </div>
+    <div class="card">
+      <i class="far fa-user" div="logo"></i>
+      <h3>LOGIN FORM</h3>
+      <div class="card-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label><i class="far fa-envelope"></i><br>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label><i class="fas fa-lock"
+              onclick="show()"></i><br />
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+        <div class="links">
+          <a href="./registration.html">New User?</a>
+          <a href="./forgetpsw.html">Lost Your Password?</a>
+        </div>
+        <h5>Please Login First To See The Categories!</h5>
+      </div>
+    </div>
+
+    <div class="end">
+      <p>Copyright@One Stop Event Planner 2021.</p>
+    </div>
+    <script>
+      function show() {
+        var passwords = document.getElementById("pw");
+        var icon = document.querySelector(".fa-lock");
+        if (passwords.type === "password") {
+          passwords.type = "text";
+          passwords.style.marginTop = "20px";
+          passwords.style.border = "none";
+          passwords.style.borderBottomColor = "white";
+          passwords.style.borderBottomWidth = "100%";
+          passwords.style.borderbottom = "1px";
+          passwords.style.borderBottomStyle = "solid";
+          passwords.style.outline = "none";
+          passwords.style.background = "transparent"
+        } else {
+          passwords.type = "password";
+        }
+      }
+
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+
+</html>
