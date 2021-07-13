@@ -20,7 +20,7 @@ Preview Pgae: [Link]()
         - css : contain stylesheet for website
         - js : contain script for websie
         - image : contain images for website
-    - blogs : contains blog paage & images
-    - pages : diff. webpages
+   - blogs : contains blog paage & images
+   - pages : diff. webpages
 
 ### Created By Lokesh, Kishori, Tanya, Mahapavitra, Pankaj @ 2021 - Web Student
