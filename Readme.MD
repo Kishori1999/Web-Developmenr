@@ -2,18 +2,18 @@
 
 Created By Basic HTML, JS, CSS.
 
-Preview Pgae: [Link]()
+Preview Pgae: [Link](https://Kishori1999.github.io/Web-Developmenr/)
 
 ## Website Structure
-   - Homepage - [index.html]()
-   - Services - [services.html]()
-   - Gallary - [gallery.html]()
-   - Blogs - [blogs.html]()
-   - About - [about.html]()
-   - Contact Us - [contact-us.html]()
-   - LogIn - [login.html]()
-   - Forgetpsw - [forgetpsw.html]()
-   - Registration - [registration.html]()
+   - Homepage - [index.html](https://Kishori1999.github.io/Web-Developmenr/)
+   - Services - [services.html](https://Kishori1999.github.io/Web-Developmenr/services.html)
+   - Gallary - [gallery.html](https://Kishori1999.github.io/Web-Developmenr/gallery.html)
+   - Blogs - [blogs.html](https://Kishori1999.github.io/Web-Developmenr/blogs.html)
+   - About - [about.html](https://Kishori1999.github.io/Web-Developmenr/about.html)
+   - Contact Us - [contact-us.html](https://Kishori1999.github.io/Web-Developmenr/contact-us.html)
+   - LogIn - [login.html](https://Kishori1999.github.io/Web-Developmenr/login.html)
+   - Forgetpsw - [forgetpsw.html](https://Kishori1999.github.io/Web-Developmenr/forgetpsw.html)
+   - Registration - [registration.html](https://Kishori1999.github.io/Web-Developmenr/registration.html)
 
 ## Folder Structure
    - asset : 
