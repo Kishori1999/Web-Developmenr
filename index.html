@@ -18,8 +18,8 @@
 
   <body>
     <header>
-      <img src="./asset/image/logo.jpg" class="logo" alt="Logo" style="float:left">
-      <div class="topnav" id="myTopnav" style="float:right">
+      <img src="./asset/image/logo.jpg" class="logo" alt="Logo">
+      <div class="topnav" id="myTopnav">
         <a href="./index.html" class="active">Home</a>
         <a href="./services.html" onclick="dis()">Events</a>
         <a href="./gallery.html" onclick="dis4()">Gallery</a>
@@ -251,26 +251,27 @@
                     </a>
                   </li>
                 </ul>
-                 <h2>For More Queries?</h2>
-                  <p>Click on the button to deal your enquiries with Manager.</p>
+                <h2>For More Queries?</h2>
+                <p>Click on the button to deal your enquiries with Manager.</p>
 
-                  <button class="open-button" onclick="openForm()">Start Enquiry!</button>
+                <button class="open-button" onclick="openForm()">Start Enquiry!</button>
 
-                  <div class="form-popup" id="myForm">
-                    <form action="/action_page.php" class="form-container">
-                      <h3>Enquiry Form</h3>
+                <div class="form-popup" id="myForm">
+                  <form action="/action_page.php" class="form-container">
+                    <h3>Enquiry Form</h3>
 
-                      <input type="text" placeholder="Enter your name" required>
+                    <input type="text" placeholder="Enter your name" required>
 
-                      <input type="text" placeholder="Enter your Whatsapp Number"  required>
+                    <input type="text" placeholder="Enter your Whatsapp Number" required>
 
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height: 100px; width:270px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                      style="height: 100px; width:270px"></textarea>
 
-                      <button type="submit" class="btn">Post</button>
+                    <button type="submit" class="btn">Post</button>
                     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
                   </form>
-              </div>
-  
+                </div>
+
               </div>
 
             </div>
@@ -318,13 +319,14 @@
         var intro5 = document.querySelector("#gallery");
         intro5.classList.add("mall4");
       }
+
       function openForm() {
-       document.getElementById("myForm").style.display = "block";
+        document.getElementById("myForm").style.display = "block";
       }
 
-     function closeForm() {
-      document.getElementById("myForm").style.display = "none";
-     }
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
     </script>
   </body>
 
