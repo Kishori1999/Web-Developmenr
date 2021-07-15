@@ -70,7 +70,26 @@
 
             </form>
         </div>
+          <div class="enquiry">
+            <h2>For More Queries?</h2>
+            <p>Click on the button to deal your enquiries with Manager.</p>
 
+            <button class="open-button" onclick="openForm()">Start Enquiry!</button>
+
+            <div class="form-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+                <h3>Enquiry Form</h3>
+
+                <input type="text" placeholder="Enter your name" required>
+
+                <input type="text" placeholder="Enter your Whatsapp Number"  required>
+
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 100px; width:270px"></textarea>
+
+                <button type="submit" class="btn">Post</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
         <div class="end">
             <p>&copy; Copyright 2021Web Student</p>
         </div>
