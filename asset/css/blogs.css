@@ -1,0 +1,28 @@
+a {
+  text-decoration: none !important;
+}
+
+@media screen and (min-width: 740px) {
+  .thumbnail img:hover {
+    animation: scale-up 0.5s forwards;
+    opacity: 0.7;
+  }
+  .caption {
+    font-size: 20px;
+    margin: 5px 0 10px;
+  }
+  .caption:hover {
+    animation: scale-up 0.5s forwards;
+  }
+  @keyframes scale-up {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1.05, 1.05);
+    }
+  }
+}

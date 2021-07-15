@@ -29,12 +29,12 @@
             <img src="./asset/image/logo.jpg" class="logo" alt="Logo">
             <div class="topnav" id="myTopnav">
                 <a href="./index.html">Home</a>
-                <a href="./services.html" onclick="dis()">Events</a>
-                <a href="./gallery.html" onclick="dis4()">Gallery</a>
-                <a href="./blogs.html" onclick="dis1()">Blogs</a>
-                <a href="./contact-us.html" class="active" onclick="dis2()">Contact</a>
-                <a href="./about.html" onclick="dis3()">About</a>
-                <a href="./login.html"><i class="fas fa-user" id="man"></i></a>
+                <a href="./services.html">Events</a>
+                <a href="./gallery.html">Gallery</a>
+                <a href="./blogs.html">Blogs</a>
+                <a href="./contact-us.html" class="active">Contact</a>
+                <a href="./about.html">About</a>
+                <a href="./login.html"><i class="fas fa-user"></i></a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -70,66 +70,43 @@
 
             </form>
         </div>
-          <div class="enquiry">
+        <div class="enquiry">
             <h2>For More Queries?</h2>
             <p>Click on the button to deal your enquiries with Manager.</p>
 
             <button class="open-button" onclick="openForm()">Start Enquiry!</button>
 
             <div class="form-popup" id="myForm">
-              <form action="/action_page.php" class="form-container">
-                <h3>Enquiry Form</h3>
+                <form action="/action_page.php" class="form-container">
+                    <h3>Enquiry Form</h3>
 
-                <input type="text" placeholder="Enter your name" required>
+                    <input type="text" placeholder="Enter your name" required>
 
-                <input type="text" placeholder="Enter your Whatsapp Number"  required>
+                    <input type="text" placeholder="Enter your Whatsapp Number" required>
 
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 100px; width:270px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height: 100px; width:270px"></textarea>
 
-                <button type="submit" class="btn">Post</button>
-              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-            </form>
-        </div>
-        <div class="end">
-            <p>&copy; Copyright 2021Web Student</p>
-        </div>
-        <script>
-            function myFunction() {
-                document.getElementById("myTopnav").classList.toggle("show");
-            }
+                    <button type="submit" class="btn">Post</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+            <div class="end">
+                <p>&copy; Copyright 2021Web Student</p>
+            </div>
+            <script>
+                function myFunction() {
+                    document.getElementById("myTopnav").classList.toggle("show");
+                }
 
-            function dis() {
-                var intro1 = document.querySelector("#events");
-                intro1.classList.add("mall");
-            }
+                function openForm() {
+                    document.getElementById("myForm").style.display = "block";
+                }
 
-            function dis1() {
-                var intro2 = document.querySelector("#blogs");
-                intro2.classList.add("mall1");
-            }
-
-            function dis2() {
-                var intro3 = document.querySelector("#contact");
-                intro3.classList.add("mall2");
-            }
-
-            function dis3() {
-                var intro4 = document.querySelector("#about");
-                intro4.classList.add("mall3");
-            }
-
-            function dis4() {
-                var intro5 = document.querySelector("#gallery");
-                intro5.classList.add("mall4");
-            }
-             function openForm() {
-                document.getElementById("myForm").style.display = "block";
-            }
-
-            function closeForm() {
-                document.getElementById("myForm").style.display = "none";
-            }
-        </script>
+                function closeForm() {
+                    document.getElementById("myForm").style.display = "none";
+                }
+            </script>
     </body>
 
 </html>

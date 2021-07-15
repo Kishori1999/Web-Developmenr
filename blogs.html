@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="./asset/css/nav-bar.css">
+        <link rel="stylesheet" href="./asset/css/blogs.css">
         <script src="https://kit.fontawesome.com/b3aafdc728.js" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -27,12 +28,12 @@
             <img src="./asset/image/logo.jpg" class="logo" alt="Logo">
             <div class="topnav" id="myTopnav">
                 <a href="./index.html">Home</a>
-                <a href="./services.html" onclick="dis()">Events</a>
-                <a href="./gallery.html" onclick="dis4()">Gallery</a>
-                <a href="./blogs.html" class="active" onclick="dis1()">Blogs</a>
-                <a href="./contact-us.html" onclick="dis2()">Contact</a>
-                <a href="./about.html" onclick="dis3()">About</a>
-                <a href="./login.html"><i class="fas fa-user" id="man"></i></a>
+                <a href="./services.html">Events</a>
+                <a href="./gallery.html">Gallery</a>
+                <a href="./blogs.html" class="active">Blogs</a>
+                <a href="./contact-us.html">Contact</a>
+                <a href="./about.html">About</a>
+                <a href="./login.html"><i class="fas fa-user"></i></a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -41,7 +42,7 @@
 
         <div class="jumbotron text-center">
             <h1 style="font-size: 5rem;">OUR BLOGS</h1>
-            <p style="font-size: 2rem;">TO Read more about click on block</p>
+            <p style="font-size: 2rem;">To Read more about click on block</p>
         </div>
         <div class="container">
             <div class="row text-center" id="item_list">
@@ -78,10 +79,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row text-center" id="item_list">
+
                 <div class="col-sm-4">
                     <a href="./blogs/blog-4.html">
                         <div class="thumbnail">
@@ -125,31 +123,6 @@
         <script>
             function myFunction() {
                 document.getElementById("myTopnav").classList.toggle("show");
-            }
-
-            function dis() {
-                var intro1 = document.querySelector("#events");
-                intro1.classList.add("mall");
-            }
-
-            function dis1() {
-                var intro2 = document.querySelector("#blogs");
-                intro2.classList.add("mall1");
-            }
-
-            function dis2() {
-                var intro3 = document.querySelector("#contact");
-                intro3.classList.add("mall2");
-            }
-
-            function dis3() {
-                var intro4 = document.querySelector("#about");
-                intro4.classList.add("mall3");
-            }
-
-            function dis4() {
-                var intro5 = document.querySelector("#gallery");
-                intro5.classList.add("mall4");
             }
         </script>
     </body>

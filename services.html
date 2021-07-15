@@ -1,249 +1,320 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Events</title>
         <link rel="stylesheet" href="./asset/css/services.css">
-	     <link rel="stylesheet" href="./asset/css/nav-bar.css">
+        <link rel="stylesheet" href="./asset/css/nav-bar.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	    
-	    
-	    
-	     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./asset/css/index.css">
-    <link rel="stylesheet" href="./asset/css/nav-bar.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/b3aafdc728.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-	    
-	    
-	    
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="./asset/css/index.css">
+        <link rel="stylesheet" href="./asset/css/nav-bar.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/b3aafdc728.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+
+
     </head>
-	
-	
-	
+
+    <style>
+        .topnav {
+            padding: 0 !important;
+        }
+
+        body {
+            margin: 0 !important;
+        }
+
+        header {
+            background-color: #ffffff70 !important;
+        }
+    </style>
+
     <body>
-        
-		
-        <!-- particles.js container -->
-         <div id="particles-js" style="position: fixed;" >
-       <header style="background-color: white;position: sticky;">
-                <img src="./asset/image/logo.jpg" class="logo" alt="Logo" style="float:left;">
-                <div class="topnav" id="myTopnav" style="float: right;">
-                  <a href="./index.html">Home</a>
-                  <a href="./services.html" onclick="dis()" >Events</a>
-                  <a href="./gallery.html" onclick="dis4()" >Gallery</a>
-                  <a href="./blogs.html" onclick="dis1()" >Blogs</a>
-                  <a href="./contact-us.html" onclick="dis2()" >Contact</a>
-                  <a href="./about.html" onclick="dis3()">About</a>
-                  <a href="./login.html" class="active"><i class="fas fa-user" id="man"></i></a>
-                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+        <header>
+            <img src="./asset/image/logo.jpg" class="logo" alt="Logo">
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html">Home</a>
+                <a href="./services.html" class="active">Events</a>
+                <a href="./gallery.html">Gallery</a>
+                <a href="./blogs.html">Blogs</a>
+                <a href="./contact-us.html">Contact</a>
+                <a href="./about.html">About</a>
+                <a href="./login.html"><i class="fas fa-user"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
-                  </a>
-                </div>
-              </header>
-         </div>
-          <!-- stats - count particles -->
-           <div class="count-particles " > 
+                </a>
+            </div>
+        </header>
+
+        <!-- particles.js container -->
+        <div id="particles-js" style="position: fixed;">
+
+        </div>
+        <!-- stats - count particles -->
+        <div class="count-particles ">
             <br>
-		   <br>
-		   <br>
-            <div class="allsides-7" style="font-family: 'Brush Script MT', cursive;font: size 100%; color: aliceblue;">Events </div>
             <br>
             <br>
-           
+            <div class="allsides-7" style="font-family: 'Brush Script MT', cursive;font: size 100%; color: aliceblue;">
+                Events </div>
+            <br>
+            <br>
+
             <!-- Bootstrap CSS Linked in Settings -->
-            <div class="allsides-7" style="font-family: 'Brush Script MT', cursive;font-size: 175%;margin-top: 3%; color:white">Wedding </div>
+            <div class="allsides-7"
+                style="font-family: 'Brush Script MT', cursive;font-size: 175%;margin-top: 3%; color:white">Wedding
+            </div>
             <br>
-           <br>
-           <br>
+            <br>
+            <br>
 
-           <section class="projectsection" id="projectsnav">
+            <section class="projectsection" id="projectsnav">
 
-            <div class="row pt-5 m-auto justify-content-center" id="projectCards">
-                <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-                    <div class="card card-custom bg-white border-white border-0">
+                <div class="row pt-5 m-auto justify-content-center" id="projectCards">
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
 
-                        <div class="card-custom-img" id="project1">
-                            <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Full Package</h1>
+                            <div class="card-custom-img" id="project1">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Full
+                                    Package</h1>
+                            </div>
+
+                            <div class="card-body" style="overflow-y: auto">
+
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">
+                                    Planning an entire wedding isn't for everyone and that is where my full service
+                                    wedding planning package comes in. It gives you everything you need to get from your
+                                    engagement all the way through your wedding day.
+                                </p>
+                            </div>
+
                         </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
 
-                        <div class="card-body" style="overflow-y: auto">
-                            
-                            <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">Planning an entire wedding isn't for everyone and that is where my full service wedding planning package comes in. It gives you everything you need to get from your engagement all the way through your wedding day.
-                            </p>
+                            <div class="card-custom-img" id="project2">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Partial
+                                    Package</h1>
+                            </div>
+
+                            <div class="card-body" style="overflow-y: auto">
+
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">Design
+                                    is a true passion of mine. This service helps yor wedding to be visually dynamic and
+                                    cohesive. No c.ookie cutter events here. I design with your personal aesthetic and
+                                    preferences in mind.</p>
+                            </div>
+
                         </div>
-                   
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-                    <div class="card card-custom bg-white border-white border-0">
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
+                            <!--Enter Project Logo/Favicon here-->
+                            <div class="card-custom-img" id="project4">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">On the Day
+                                </h1>
+                            </div>
 
-                        <div class="card-custom-img" id="project2">
-                            <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Partial Package</h1>
+                            <div class="card-body" style="overflow-y: auto">
+
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">When
+                                    designing flowers for an event I take into consideration your personal tastes as
+                                    well as other elements such as seasonality, and how to seamlessly integrate floral
+                                    concepts into your overall design.</p>
+                            </div>
+
                         </div>
-                     
-                        <div class="card-body" style="overflow-y: auto">
-                            
-                            <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">Design is a true passion of mine. This service helps yor wedding to be visually dynamic and cohesive. No c.ookie cutter events here. I design with your personal aesthetic and preferences in mind.</p>
+                    </div>
+
+
+            </section>
+
+            <div class="allsides-7"
+                style="font-family: 'Brush Script MT', cursive;font-size: 200%;margin-top: 3%;color:white;">Corporate
+                Events </div>
+            <br>
+            <br>
+            <br>
+
+            <section class="projectsection" id="projectsnav">
+
+                <div class="row pt-5 m-auto justify-content-center" id="projectCards">
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
+
+                            <div class="card-custom-img" id="project5">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">
+                                    Conferences</h1>
+                            </div>
+
+                            <div class="card-body" style="overflow-y: auto">
+
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">We
+                                    offer a variety of event management servcies ranging from site selection, vendor
+                                    negotiations, and on-site management to name a few.
+                                </p>
+                            </div>
+
                         </div>
-
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-                  <div class="card card-custom bg-white border-white border-0">
-                      <!--Enter Project Logo/Favicon here-->
-                      <div class="card-custom-img" id="project4">
-                          <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">On the Day</h1>
-                      </div>
-                     
-                      <div class="card-body" style="overflow-y: auto">
-                        
-                          <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">When designing flowers for an event I take into consideration your personal tastes as well as other elements such as seasonality, and how to seamlessly integrate floral concepts into your overall design.</p>
-                      </div>
-                     
-                  </div>
-              </div>
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
 
-             
-        </section>
+                            <div class="card-custom-img" id="project6">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Corporate
+                                    Parties</h1>
+                            </div>
 
-        <div class="allsides-7" style="font-family: 'Brush Script MT', cursive;font-size: 200%;margin-top: 3%;color:white;">Corporate Events </div>
-        <br>
-       <br>
-       <br>
+                            <div class="card-body" style="overflow-y: auto">
 
-       <section class="projectsection" id="projectsnav">
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">
+                                    Keeping the varying necessities of customers in mind, our enterprise provides
+                                    Corporate Events. This service is provided by our skillful team of employees
+                                    according to the patrons needs.</p>
+                            </div>
 
-        <div class="row pt-5 m-auto justify-content-center" id="projectCards">
-            <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-                <div class="card card-custom bg-white border-white border-0">
-
-                    <div class="card-custom-img" id="project5">
-                        <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Conferences</h1>
+                        </div>
                     </div>
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
+                            <!--Enter Project Logo/Favicon here-->
+                            <div class="card-custom-img" id="project7">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Employee
+                                    Fun Days</h1>
+                            </div>
 
-                    <div class="card-body" style="overflow-y: auto">
-                        
-                        <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">We offer a variety of event management servcies ranging from site selection, vendor negotiations, and on-site management to name a few.
-                        </p>
-                    </div>
-               
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-                <div class="card card-custom bg-white border-white border-0">
+                            <div class="card-body" style="overflow-y: auto">
 
-                    <div class="card-custom-img" id="project6">
-                        <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Corporate Parties</h1>
-                    </div>
-                 
-                    <div class="card-body" style="overflow-y: auto">
-                        
-                        <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">Keeping the varying necessities of customers in mind, our enterprise provides Corporate Events. This service is provided by our skillful team of employees according to the patrons needs.</p>
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">When
+                                    it comes to rewarding your workforce and their families, there’s no better way than
+                                    a Fun Day. The programme can include a show around of your premises, a variety of
+                                    team tournaments and even feature a company talent show.</p>
+                            </div>
+
+                        </div>
                     </div>
 
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-              <div class="card card-custom bg-white border-white border-0">
-                  <!--Enter Project Logo/Favicon here-->
-                  <div class="card-custom-img" id="project7">
-                      <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Employee Fun Days</h1>
-                  </div>
-                 
-                  <div class="card-body" style="overflow-y: auto">
-                    
-                      <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">When it comes to rewarding your workforce and their families, there’s no better way than a Fun Day. The programme can include a show around of your premises, a variety of team tournaments and even feature a company talent show.</p>
-                  </div>
-                 
-              </div>
-          </div>
 
-         
-    </section>
-    <div class="allsides-7" style="font-family: 'Brush Script MT', cursive;font-size: 200%;margin-top: 3%;color:white">Private Parties</div>
-    <br>
-   <br>
-   <br>
+            </section>
+            <div class="allsides-7"
+                style="font-family: 'Brush Script MT', cursive;font-size: 200%;margin-top: 3%;color:white">Private
+                Parties</div>
+            <br>
+            <br>
+            <br>
 
-   <section class="projectsection" id="projectsnav" >
+            <section class="projectsection" id="projectsnav">
 
-    <div class="row pt-5 m-auto justify-content-center" id="projectCards">
-        <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-            <div class="card card-custom bg-white border-white border-0">
+                <div class="row pt-5 m-auto justify-content-center" id="projectCards">
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
 
-                <div class="card-custom-img" id="project8">
-                    <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Christenings</h1>
-                </div>
+                            <div class="card-custom-img" id="project8">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">
+                                    Christenings</h1>
+                            </div>
 
-                <div class="card-body" style="overflow-y: auto">
-                    
-                    <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">Christenings is a unique event for the whole family and a great opportunity to meet with your loved ones. That is why in Harmoni Event Management we offer you to organize this baptism/christening party in restaurant.
-                    </p>
-                </div>
-           
-            </div>
+                            <div class="card-body" style="overflow-y: auto">
+
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">
+                                    Christenings is a unique event for the whole family and a great opportunity to meet
+                                    with your loved ones. That is why in Harmoni Event Management we offer you to
+                                    organize this baptism/christening party in restaurant.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
+
+                            <div class="card-custom-img" id="project9">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Bar
+                                    Mitzvahs</h1>
+                            </div>
+
+                            <div class="card-body" style="overflow-y: auto">
+
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">For
+                                    you and your family, a Bar Mitzvah is an important milestone; a time of significant
+                                    importance and meaning.
+
+                                    Your son is soon to become Bar Mitzvah and you may be considering a celebration for
+                                    this once in a lifetime event.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
+                        <div class="card card-custom bg-white border-white border-0">
+                            <!--Enter Project Logo/Favicon here-->
+                            <div class="card-custom-img" id="project10">
+                                <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Private
+                                    Events</h1>
+                            </div>
+
+                            <div class="card-body" style="overflow-y: auto">
+
+                                <p class="card-text"
+                                    style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">Make
+                                    your event Stand out of the restaurant.A Private event is an event such as a
+                                    birthday party for kids, a private event for adults, a corporate event, etc. A
+                                    private event is typically reserved for invite-based registration only.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+            </section>
+
         </div>
-        <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-            <div class="card card-custom bg-white border-white border-0">
 
-                <div class="card-custom-img" id="project9">
-                    <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Bar Mitzvahs</h1>
-                </div>
-             
-                <div class="card-body" style="overflow-y: auto">
-                    
-                    <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">For you and your family, a Bar Mitzvah is an important milestone; a time of significant importance and meaning.
-
-                        Your son is soon to become Bar Mitzvah and you may be considering a celebration for this once in a lifetime event.</p>
-                </div>
-
-            </div>
         </div>
-        <div class="col-md-6 col-lg-4 pb-3" style="opacity: 0.9;">
-          <div class="card card-custom bg-white border-white border-0" >
-              <!--Enter Project Logo/Favicon here-->
-              <div class="card-custom-img" id="project10" >
-                  <h1 class="m-2" style="color: white;font-family: 'Brush Script MT', cursive;">Private Events</h1>
-              </div>
-             
-              <div class="card-body" style="overflow-y: auto">
-                
-                  <p class="card-text" style="font-family: 'Brush Script MT', cursive;font-size: 50%;color:#808080;">Make your event Stand out of the restaurant.A Private event is an event such as a birthday party for kids, a private event for adults, a corporate event, etc. A private event is typically reserved for invite-based registration only.</p>
-              </div>
-             
-          </div>
-      </div>
+        </div>
 
-     
-</section>
+        <!-- jQuery Linked in Settings  -->
 
-      </div>
-      
-    </div>
-  </div>
-  
-  <!-- jQuery Linked in Settings  -->
-  
-  <!-- Bootstrap js Linked in Settings -->
-               </div> 
-              
-               <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
-               <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
-            </script> 
-            <script type="text/javascript" src="./asset/js/services.js"></script>
+        <!-- Bootstrap js Linked in Settings -->
+        </div>
+
+        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+        </script>
+        <script type="text/javascript" src="./asset/js/services.js"></script>
+        <script>
+            function myFunction() {
+                document.getElementById("myTopnav").classList.toggle("show");
+            }
+        </script>
     </body>
+
 </html>
